@@ -49,6 +49,13 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 ./komodod -ac_name=SOULJA -ac_supply=100000 -ac_reward=25600000000 -ac_perc=100000000 -ac_founders=10080 -ac_halving=388885 -ac_pubkey=02fec5cebe47bd5f8eb2ac6f3dff76a82a1292c761d4ccfda578da89f74360c5ee -ac_staked=40 -addnode=51.222.150.53 -daemon -gen -genproclimit=4
 ```
 
+# Stake SOULJA blockchain (MUST hold SOULJA in wallet)
+Use "-gen" and "-genproclimit" to enable staking. Value for "-genproclimit" is 0 in order to stake. Staking and Mining is not possible in the same daemon.
+
+```bash
+./komodod -ac_name=SOULJA -ac_supply=100000 -ac_reward=25600000000 -ac_perc=100000000 -ac_founders=10080 -ac_halving=388885 -ac_pubkey=02fec5cebe47bd5f8eb2ac6f3dff76a82a1292c761d4ccfda578da89f74360c5ee -ac_staked=40 -addnode=51.222.150.53 -daemon -gen -genproclimit=0
+```
+
 # Wallet comands
 
 ```bash
